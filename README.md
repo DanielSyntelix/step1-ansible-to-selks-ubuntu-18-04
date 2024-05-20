@@ -1,5 +1,7 @@
 # step1-ansible-to-selks-ubuntu-18-04
-1st step to get SELKS, we're going to need to install Ansible and make an automation installation
+1st step to get SELKS
+
+We're going to need to install Ansible and make an automation installation
 ELK-SIEM-Ansible-Playbook
 Ansible Playbook to install the ELK Stack. To use this playbook follow these steps:
 
