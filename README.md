@@ -30,4 +30,6 @@ Clone this repo into your /etc/ansible folder
 change the ip addresses from 192.168.5.71 to your SIEM IP addresses in the site.yml file
 Run the Playbook site.yml ( ansible-playbook site.yml) ## This will take a while, get a coffee.
 Sign into kibana at http://yoursiemip:5601 6)Next, get some data in your siem.
+
 CREDITS: For the ansible install script: https://github.com/neillturner/omnibus-ansible
+CREDITS: For the files and guide https://github.com/lmakonem/ELK-SIEM-Ansible-Playbook
