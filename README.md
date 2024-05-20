@@ -20,7 +20,9 @@ NB we will improve this playbook in the future to include roles and variables, f
 Install ansible on Centos 7 using install_ansible.sh
 
   3.- Clone this repo to your centos machine where you want to install Ansible
+  
   4.- RUN cd ELK-SIEM-Ansible-playbook
+  
   5.- Run sudo ./install_ansible.sh ## This will install the latest version for ansible for you. For more info about this script, please go to: https://github.com/neillturner/omnibus-ansible
   
 ###############
@@ -28,9 +30,13 @@ Install ansible on Centos 7 using install_ansible.sh
 Install ELK SIEM using Ansible
 
   6.- Clone this repo into your /etc/ansible folder
+  
   7.- Change the ip addresses from 192.168.5.71 to your SIEM IP addresses in the site.yml file
+  
   8.- Run the Playbook site.yml ( ansible-playbook site.yml) ## This will take a while, get a coffee.
+  
   9.- Sign into kibana at http://yoursiemip:5601
+  
   10.- Next, get some data in your siem.
 
 CREDITS: For the ansible install script: https://github.com/neillturner/omnibus-ansible
