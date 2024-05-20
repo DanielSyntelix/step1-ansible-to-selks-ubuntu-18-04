@@ -12,9 +12,7 @@ https://www.youtube.com/watch?v=IwlV3wVX4xs&t=32s
 
 NB we will improve this playbook in the future to include roles and variables, for now lets keep it simple and use the site.yml.
 
-
-###################################################
-
+###############
 
 Install ansible on Centos 7 using install_ansible.sh
 
@@ -24,9 +22,7 @@ Install ansible on Centos 7 using install_ansible.sh
   
   3.- Run sudo ./install_ansible.sh  ## This will install the latest version for ansible for you. For more info about this script, please go to: https://github.com/neillturner/omnibus-ansible
   
-
-###################################################
-
+###############
 
 Install ELK SIEM using Ansible
 
